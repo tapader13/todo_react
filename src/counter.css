@@ -1,0 +1,28 @@
+ .container {
+     text-align: center;
+     width: 32%;
+
+     background-color: lightgray;
+     margin-block: 1rem;
+     padding-block: 2rem;
+     transition: all .5s ease-in-out;
+ }
+
+ .container:hover {
+     transform: scale(1.01);
+ }
+
+ @media(max-width:965px) {
+     .container {
+         width: 48%;
+         margin-block: 2rem;
+     }
+ }
+
+ @media(max-width:620px) {
+     .container {
+         width: 90%;
+         margin: auto;
+         margin-block: 1.5rem;
+     }
+ }
